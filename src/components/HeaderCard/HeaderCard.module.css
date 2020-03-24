@@ -22,3 +22,7 @@ p {
 .portfolioButton:hover {
   background-color: #ededed !important;
 }
+
+.buttonContainer {
+  text-align: center;
+}
