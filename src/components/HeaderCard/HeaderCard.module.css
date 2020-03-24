@@ -2,6 +2,7 @@ h1 {
   text-align: center;
   font-size: 64px;
   line-height: 100%;
+  margin-bottom: 0px;
   color: white;
 }
 
@@ -13,9 +14,11 @@ p {
 
 .headerCard {
   background-color: #2693FF !important;
+  padding-bottom: 42px !important;
 }
 
 .portfolioButton {
+  zoom: 1.15;
   background-color: white !important;
 }
 
