@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-size: 64px;
+  line-height: 100%;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.headerCard {
+  background-color: #2693FF !important;
+}
+
+.portfolioButton {
+  background-color: white !important;
+}
+
+.portfolioButton:hover {
+  background-color: #ededed !important;
+}
