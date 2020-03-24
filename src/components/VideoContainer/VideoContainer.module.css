@@ -1,0 +1,29 @@
+.video-container {
+  height: 100vh;
+  position: relative;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.vidblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 95vh;
+}
