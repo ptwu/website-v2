@@ -7,6 +7,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import styles from './App.css';
 import VideoContainer from './components/VideoContainer/VideoContainer';
 import ProjectsSection from './components/ProjectsSection/ProjectsSection';
+import Footer from './components/Footer/Footer';
 import MetropolisOtf from './font/Metropolis-Medium.otf';
 import Logo from './img/ptwulogosmall.png';
 
@@ -46,5 +47,6 @@ export default () => (
     </AppBar>
     <VideoContainer />
     <ProjectsSection />
+    <Footer />
   </ThemeProvider>
 );

@@ -87,7 +87,7 @@ export default () => (
                 desc="The WW-P Mathematics Tournament website, powered by a HTML5 + CSS frontend and a Google App Engine backend, houses a scoring and problem submission database and advertises the annual competition, which draws in over 500 students per year.                "
                 linkText="Link To Website"
                 url="https://wwpme.org/"
-                style={{ background: '#388E3C' }}
+                style={{ background: '#AB47BC' }}
               />
             </Grid>
           </Grid>
