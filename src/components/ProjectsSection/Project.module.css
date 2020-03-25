@@ -1,0 +1,13 @@
+.projectButton {
+  width: calc(100%);
+  margin: 0;
+  color: white !important;
+  height: 60px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.projectButton:hover {
+  filter: brightness(120%);
+}
