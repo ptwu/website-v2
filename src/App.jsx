@@ -4,7 +4,6 @@ import {
 } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
-import HeaderCard from './components/HeaderCard/HeaderCard';
 import VideoContainer from './components/VideoContainer/VideoContainer';
 import MetropolisOtf from './font/Metropolis-Medium.otf';
 import Logo from './img/ptwulogosmall.png';
@@ -43,8 +42,6 @@ export default () => (
     <AppBar className="navbar" position="fixed">
       <Toolbar><img src={Logo} alt="ptwu logo" href="#" /></Toolbar>
     </AppBar>
-    <VideoContainer>
-      <HeaderCard />
-    </VideoContainer>
+    <VideoContainer />
   </ThemeProvider>
 );
