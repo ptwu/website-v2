@@ -1,4 +1,5 @@
 {
+  "homepage": "https://peterwu.dev",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js --ext .jsx"
+    "lint": "eslint . --ext .js --ext .jsx",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,6 +44,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "gh-pages": "^2.2.0"
   }
 }
