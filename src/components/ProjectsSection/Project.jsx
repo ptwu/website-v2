@@ -37,7 +37,7 @@ Project.propTypes = {
   image: PropTypes.any.isRequired,
   altText: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  desc: PropTypes.string.isRequired,
+  desc: PropTypes.object.isRequired,
   linkText: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   style: PropTypes.any.isRequired,
