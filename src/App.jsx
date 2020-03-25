@@ -44,5 +44,6 @@ export default () => (
       <Toolbar><img src={Logo} alt="ptwu logo" href="#" /></Toolbar>
     </AppBar>
     <VideoContainer />
+    <ProjectsSection />
   </ThemeProvider>
 );
