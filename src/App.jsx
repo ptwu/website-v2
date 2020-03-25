@@ -5,6 +5,7 @@ import {
 import { createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
 import VideoContainer from './components/VideoContainer/VideoContainer';
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import MetropolisOtf from './font/Metropolis-Medium.otf';
 import Logo from './img/ptwulogosmall.png';
 
