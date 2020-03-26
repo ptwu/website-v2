@@ -4,7 +4,7 @@ import {
   ThemeProvider, CssBaseline, AppBar, Toolbar,
 } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
-import styles from './App.css';
+import './App.css';
 import VideoContainer from './components/VideoContainer/VideoContainer';
 import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import Footer from './components/Footer/Footer';
@@ -43,7 +43,7 @@ export default () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <AppBar className="navbar" position="fixed">
-      <Toolbar><a href="#"><img src={Logo} alt="ptwu logo" /></a></Toolbar>
+      <Toolbar><a href="#"><img src={Logo} width="64px" height="64px" alt="ptwu logo" /></a></Toolbar>
     </AppBar>
     <VideoContainer />
     <ProjectsSection />
