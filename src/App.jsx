@@ -9,7 +9,7 @@ import VideoContainer from './components/VideoContainer/VideoContainer';
 import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import Footer from './components/Footer/Footer';
 import MetropolisOtf from './font/Metropolis-Medium.otf';
-import Logo from './img/ptwulogosmall.png';
+import Logo from './img/ptwulogo.png';
 
 const metropolis = {
   fontFamily: 'Metropolis',
@@ -43,7 +43,7 @@ export default () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <AppBar className="navbar" position="fixed">
-      <Toolbar><a href="#"><img className={styles.logo} src={Logo} alt="ptwu logo" /></a></Toolbar>
+      <Toolbar><a href="#"><img src={Logo} alt="ptwu logo" /></a></Toolbar>
     </AppBar>
     <VideoContainer />
     <ProjectsSection />
