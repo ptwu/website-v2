@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bdf17b7.chunk.css",
-    "main.js": "/static/js/main.362c2156.chunk.js",
-    "main.js.map": "/static/js/main.362c2156.chunk.js.map",
+    "main.css": "/static/css/main.09c3db06.chunk.css",
+    "main.js": "/static/js/main.c13f11f1.chunk.js",
+    "main.js.map": "/static/js/main.c13f11f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54edee9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.54edee9e.js.map",
-    "static/js/2.9f50ded3.chunk.js": "/static/js/2.9f50ded3.chunk.js",
-    "static/js/2.9f50ded3.chunk.js.map": "/static/js/2.9f50ded3.chunk.js.map",
+    "static/js/2.640f8ce6.chunk.js": "/static/js/2.640f8ce6.chunk.js",
+    "static/js/2.640f8ce6.chunk.js.map": "/static/js/2.640f8ce6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfeb50bb004b846c5efe8c812fc93351.js": "/precache-manifest.cfeb50bb004b846c5efe8c812fc93351.js",
+    "precache-manifest.4637601c78348a81589602e471679120.js": "/precache-manifest.4637601c78348a81589602e471679120.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5bdf17b7.chunk.css.map": "/static/css/main.5bdf17b7.chunk.css.map",
-    "static/js/2.9f50ded3.chunk.js.LICENSE.txt": "/static/js/2.9f50ded3.chunk.js.LICENSE.txt",
+    "static/css/main.09c3db06.chunk.css.map": "/static/css/main.09c3db06.chunk.css.map",
+    "static/js/2.640f8ce6.chunk.js.LICENSE.txt": "/static/js/2.640f8ce6.chunk.js.LICENSE.txt",
     "static/media/Metropolis-Medium.otf": "/static/media/Metropolis-Medium.f4bca87f.otf",
     "static/media/Peter_Wu_Resume.pdf": "/static/media/Peter_Wu_Resume.8d49514a.pdf",
     "static/media/bg.jpg": "/static/media/bg.eddcbbd4.jpg",
     "static/media/bgvid.webm": "/static/media/bgvid.1f867066.webm",
     "static/media/classreveal.jpg": "/static/media/classreveal.d1ea16f7.jpg",
     "static/media/piratemaps.jpg": "/static/media/piratemaps.46b7a848.jpg",
-    "static/media/ptwulogosmall.png": "/static/media/ptwulogosmall.4b0c9b16.png",
     "static/media/samwise.jpg": "/static/media/samwise.549a2452.jpg",
     "static/media/smartsieve.jpg": "/static/media/smartsieve.a09fc7eb.jpg",
     "static/media/trafficsim.jpg": "/static/media/trafficsim.c5466fd6.jpg",
@@ -26,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54edee9e.js",
-    "static/js/2.9f50ded3.chunk.js",
-    "static/css/main.5bdf17b7.chunk.css",
-    "static/js/main.362c2156.chunk.js"
+    "static/js/2.640f8ce6.chunk.js",
+    "static/css/main.09c3db06.chunk.css",
+    "static/js/main.c13f11f1.chunk.js"
   ]
 }
