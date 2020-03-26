@@ -73,9 +73,9 @@ export default () => (
                 image={TrafficSim}
                 altText="TrafficSim"
                 title="TrafficSim"
-                desc={['Webapp made in HTML, CSS, and JS which optimizes intersection traffic light cycle times given input data. Makes calculations using kinematics equations. ', <a target="_blank" rel="noopener noreferrer" href="https://peterwu.dev/TrafficSim/writeup.pdf">Link to associated paper.</a>]}
+                desc={['Webapp made in HTML, CSS, and JS which optimizes intersection traffic light cycle times given input data. Makes calculations using kinematics equations. ', <a target="_blank" rel="noopener noreferrer" href="https://ptwu.github.io/TrafficSim/writeup.pdf">Link to associated paper.</a>]}
                 linkText="Link To Website"
-                url="https://peterwu.dev/TrafficSim/"
+                url="https://ptwu.github.io/TrafficSim/"
                 style={{ background: '#E91E63' }}
               />
             </Grid>
@@ -84,7 +84,7 @@ export default () => (
                 image={WWPMT}
                 altText="WWPMT"
                 title="WWPMT (now WWPME)"
-                desc="The WW-P Mathematics Tournament website, powered by a HTML5 + CSS frontend and a Google App Engine backend, houses a scoring and problem submission database and advertises the annual competition, which draws in over 500 students per year.                "
+                desc="The WW-P Mathematics Tournament website, powered by a HTML5 + CSS frontend and a Google App Engine backend, houses a scoring and problem submission database and advertises the annual competition, which draws in over 500 students per year."
                 linkText="Link To Website"
                 url="https://wwpme.org/"
                 style={{ background: '#AB47BC' }}
