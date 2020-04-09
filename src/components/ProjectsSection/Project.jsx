@@ -6,32 +6,32 @@ import {
 import { PropTypes } from 'prop-types';
 import styles from './Project.module.css';
 
-export default function Project({
+const Project = ({
   image, altText, title, desc, linkText, url, style,
-}) {
-  return (
-    <Card>
-      <CardMedia
-        component="img"
-        alt={altText}
-        height="240"
-        image={image}
-        title={altText}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
-          {title}
-        </Typography>
-        <Typography variant="body2" color="textSecondary" component="p" align="left">
-          {desc}
-        </Typography>
-      </CardContent>
-      <Button className={styles.projectButton} style={style} size="large" target="_blank" rel="noopener noreferrer" href={url}>
-        {linkText}
-      </Button>
-    </Card>
-  );
-}
+}) => (
+  <Card>
+    <CardMedia
+      component="img"
+      alt={altText}
+      height="240"
+      image={image}
+      title={altText}
+    />
+    <CardContent>
+      <Typography gutterBottom variant="h5" component="h2">
+        {title}
+      </Typography>
+      <Typography variant="body2" color="textSecondary" component="p" align="left">
+        {desc}
+      </Typography>
+    </CardContent>
+    <Button className={styles.projectButton} style={style} size="large" target="_blank" rel="noopener noreferrer" href={url}>
+      {linkText}
+    </Button>
+  </Card>
+);
+
+export default Project;
 
 Project.propTypes = {
   image: PropTypes.any.isRequired,
