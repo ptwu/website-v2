@@ -5,7 +5,7 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
-import styles from './HeaderCard.module.css';
+import styles from './index.module.css';
 import ResumePDF from '../../docs/Peter_Wu_Resume.pdf';
 
 export default () => (

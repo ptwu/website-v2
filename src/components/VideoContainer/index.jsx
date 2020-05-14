@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './VideoContainer.module.css';
+import styles from './index.module.css';
 import PlaceholderBG from '../../img/bg.jpg';
 import BGVideo from '../../img/bgvid.webm';
-import HeaderCard from '../HeaderCard/HeaderCard';
+import HeaderCard from '../HeaderCard';
 
 export default () => (
   <div className={styles.videoContainer}>

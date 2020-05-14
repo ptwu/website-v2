@@ -1,13 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import {
   ThemeProvider, CssBaseline, AppBar, Toolbar,
 } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
-import VideoContainer from './components/VideoContainer/VideoContainer';
-import ProjectsSection from './components/ProjectsSection/ProjectsSection';
-import Footer from './components/Footer/Footer';
+import VideoContainer from './components/VideoContainer';
+import ProjectsSection from './components/ProjectsSection';
+import Footer from './components/Footer';
 import MetropolisOtf from './font/Metropolis-Medium.otf';
 import MetropolisBoldOtf from './font/Metropolis-Bold.otf';
 import Logo from './img/ptwulogo.png';
@@ -55,7 +55,9 @@ export default () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <AppBar className="navbar" position="fixed">
-      <Toolbar><a href="#"><img src={Logo} width="64px" height="64px" alt="ptwu logo" /></a></Toolbar>
+      <Toolbar>
+        <a href="https://peterwu.dev"><img src={Logo} width="64px" height="64px" alt="ptwu logo" /></a>
+      </Toolbar>
     </AppBar>
     <VideoContainer />
     <ProjectsSection />

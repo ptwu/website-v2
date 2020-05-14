@@ -25,28 +25,6 @@ video {
   overflow: hidden;
 }
 
-/* @media (min-aspect-ratio: 16/9) {
-  .fullVid {
-      width:100%;
-      height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  .fullVid { 
-      width:auto;
-      height: 100%;
-  }
-}
-@media (max-width: 767px) {
-  .fullVid {
-      display: none;
-  }
-  body {
-      background: url('../../img/bg.jpg');
-      background-size: cover;
-  }
-} */
-
 .vidblock {
   display: flex;
   flex-direction: column;

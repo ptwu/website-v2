@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Container } from '@material-ui/core';
-import styles from './ProjectsSection.module.css';
+import styles from './index.module.css';
 import Project from './Project';
 import Samwise from '../../img/samwise.jpg';
 import SmartSieve from '../../img/smartsieve.jpg';
