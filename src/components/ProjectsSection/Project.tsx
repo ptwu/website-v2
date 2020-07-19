@@ -9,15 +9,15 @@ type Props = {
   readonly image: string;
   readonly altText: string;
   readonly title: string;
-  readonly desc: any;
+  readonly desc: (string | JSX.Element)[] | string;
   readonly linkText: string;
   readonly url: string;
   readonly style: React.CSSProperties;
 };
 
 export default (props: Props): ReactElement => {
-
   const { image, altText, title, desc, linkText, url, style } = props;
+
   return (
     <Card>
       <CardMedia
