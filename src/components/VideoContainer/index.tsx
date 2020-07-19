@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import styles from './index.module.css';
 import PlaceholderBG from '../../img/bg.jpg';
 import BGVideo from '../../img/bgvid.webm';
 import HeaderCard from '../HeaderCard';
 
-export default () => (
+export default (): ReactElement => (
   <div className={styles.videoContainer}>
     <video
       className={styles.fullVid}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Grid, Container } from '@material-ui/core';
 import styles from './index.module.css';
 import Project from './Project';
@@ -9,14 +9,14 @@ import ClassReveal from '../../img/classreveal.jpg';
 import TrafficSim from '../../img/trafficsim.jpg';
 import WWPMT from '../../img/wwpmt.jpg';
 
-export default () => (
+export default (): ReactElement => (
   <div className={styles.sectionContainer}>
     <h6 className={styles.subheading}>cool things I&apos;ve built!</h6>
     <h1 className={styles.heading}>Projects</h1>
     <Container maxWidth="lg">
       <Grid container>
         <Grid item xs={12}>
-          <Grid className={styles.fullwidthGrid} container justify="center" spacing="8">
+          <Grid className={styles.fullwidthGrid} container justify="center" spacing={8}>
             <Grid item xs>
               <Project
                 image={Samwise}
@@ -55,7 +55,7 @@ export default () => (
       </Grid>
       <Grid container>
         <Grid item xs={12}>
-          <Grid className={styles.fullwidthGrid} container justify="center" spacing="8">
+          <Grid className={styles.fullwidthGrid} container justify="center" spacing={8}>
             <Grid item xs>
               <Project
                 image={ClassReveal}

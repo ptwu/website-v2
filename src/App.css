@@ -6,6 +6,14 @@
   color: #61dafb;
 }
 
+body { 
+  font-family: 'Metropolis'; 
+}
+
+h1 {
+  font-family: 'Metropolis-Bold';
+}
+
 img {
   margin-left: auto;
   margin-right: auto;

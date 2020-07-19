@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import './index.module.css';
 
-export default () => (
+export default (): ReactElement => (
   <footer>
     Built from scratch with React, Node.js, HTML5, and CSS3.
     <br />

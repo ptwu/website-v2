@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Metropolis;
+  src: url("font/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Metropolis-Bold;
+  font-weight: bold;
+  src: url("font/Metropolis-Bold.otf") format("opentype");
+}
