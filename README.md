@@ -9,7 +9,7 @@ Website is static for now, so only has a frontend.
 
 * Frontend
     * MVC - React.js
-    * Language - JavaScript ES6 (JSX)
+    * Language - TypeScript
     * UI - MaterialUI
     * Build System - Yarn
     * Linter - ESLint (eslint-config-airbnb)
