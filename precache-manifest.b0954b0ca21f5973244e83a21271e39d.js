@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d374e9d584c299a8d21cb935d9fd4a95",
+    "revision": "6de88ddb9365a175ad492353dacc8b20",
     "url": "/index.html"
   },
   {
-    "revision": "b9594292583abea41108",
-    "url": "/static/css/main.8bae3f9d.chunk.css"
+    "revision": "d3e5a4828001bb1192dd",
+    "url": "/static/css/main.97efd4cd.chunk.css"
   },
   {
-    "revision": "e919eeee4cebccd73dc1",
-    "url": "/static/js/2.a8f5a9a9.chunk.js"
+    "revision": "6932f88ab8b65b0fd721",
+    "url": "/static/js/2.0ee0b0f0.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.a8f5a9a9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0ee0b0f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9594292583abea41108",
-    "url": "/static/js/main.37974b17.chunk.js"
+    "revision": "d3e5a4828001bb1192dd",
+    "url": "/static/js/main.a068f2ee.chunk.js"
   },
   {
     "revision": "6e7d85ad969107dd34f7",
     "url": "/static/js/runtime-main.54edee9e.js"
-  },
-  {
-    "revision": "dea4998b081c6c1133a3b5b08ff2218c",
-    "url": "/static/media/Metropolis-Bold.dea4998b.otf"
-  },
-  {
-    "revision": "f4bca87fd0d19e61c27dc96299c75f8c",
-    "url": "/static/media/Metropolis-Medium.f4bca87f.otf"
   },
   {
     "revision": "8d49514ad5d989307093ded604a7cac6",
