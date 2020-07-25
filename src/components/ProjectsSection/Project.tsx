@@ -1,5 +1,5 @@
 /* eslint-disable react/forbid-prop-types */
-import React, { ReactElement } from 'react';
+import React, { ReactElement, CSSProperties } from 'react';
 import {
   Card, CardMedia, CardContent, Typography, Button,
 } from '@material-ui/core';
@@ -12,7 +12,7 @@ type Props = {
   readonly desc: (string | JSX.Element)[] | string;
   readonly linkText: string;
   readonly url: string;
-  readonly style: React.CSSProperties;
+  readonly style: CSSProperties;
 };
 
 export default (props: Props): ReactElement => {
