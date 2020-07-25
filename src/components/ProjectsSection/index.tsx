@@ -44,9 +44,9 @@ export default (): ReactElement => (
                 image={Overnightly}
                 altText="Overnightly"
                 title="Overnightly"
-                desc="Android mapping app made with Unity3D, made for helping new students navigate through school. Uses Dijkstra's algorithm to find optimal pathways between the &quot;nodes&quot; of school classrooms."
+                desc="Created as my capstone project for the Google STEP 2020 internship, Overnightly is a webapp built with HTML/CSS and JS (ES6) and a Java Servlet + Datastore backend that makes finding a place to stay easy if you know where you want to go. The project has CI enforcement through GitHub Actions with JUnit and Jasmine unit test coverage."
                 linkText="Link To GitHub Repo"
-                url="https://play.google.com/store/apps/details?id=com.CSI.HSSPirateMaps"
+                url="https://github.com/googleinterns/step27-2020"
                 style={{ background: '#388E3C' }}
               />
             </Grid>
