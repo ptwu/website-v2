@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54283356020cdd56c7cf7533c792c469",
+    "revision": "f3de1ecdbb3a6b1daca32ead950c6056",
     "url": "/index.html"
   },
   {
-    "revision": "9616539780fe27d58de0",
+    "revision": "20a3b61a58ffaf25cd48",
     "url": "/static/css/main.97efd4cd.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0ee0b0f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9616539780fe27d58de0",
-    "url": "/static/js/main.326172a1.chunk.js"
+    "revision": "20a3b61a58ffaf25cd48",
+    "url": "/static/js/main.cf6a5752.chunk.js"
   },
   {
     "revision": "6e7d85ad969107dd34f7",
     "url": "/static/js/runtime-main.54edee9e.js"
   },
   {
-    "revision": "9639a464a5bd9907cb8fdc94eccdfb35",
-    "url": "/static/media/Peter_Wu_Resume.9639a464.pdf"
+    "revision": "3711a6f92ed58092c7826a7e6a1b2ad3",
+    "url": "/static/media/Peter_Wu_Resume.3711a6f9.pdf"
   },
   {
     "revision": "eddcbbd46528ed2857fcb09a2f2b356c",
