@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/ptwu/website/workflows/CI/badge.svg)
 
-This is a repo for my personal website + portfolio, which is hosted at https://peterwu.dev.
+This is a repo for my personal website + portfolio, which is hosted at https://peterlwu.com.
 
 ## Tech Stack
 Website is static for now, so only has a frontend.
