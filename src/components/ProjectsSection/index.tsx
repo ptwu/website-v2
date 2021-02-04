@@ -7,7 +7,7 @@ import Poker from '../../img/poker.jpg';
 import SmartSieve from '../../img/smartsieve.jpg';
 import Overnightly from '../../img/overnightly.jpg';
 import ClassReveal from '../../img/classreveal.jpg';
-import WWPMT from '../../img/wwpmt.jpg';
+import fitme from '../../img/fitme.png';
 
 export default (): ReactElement => (
   <div className={styles.sectionContainer}>
@@ -16,13 +16,27 @@ export default (): ReactElement => (
     <Container maxWidth="lg">
       <Grid container>
         <Grid item xs={12}>
-          <Grid className={styles.fullwidthGrid} container justify="center" spacing={8}>
+          <Grid
+            className={styles.fullwidthGrid}
+            container
+            justify="center"
+            spacing={8}
+          >
             <Grid item xs>
               <Project
                 image={Samwise}
                 altText="Samwise"
                 title="Samwise"
-                desc={['Samwise is a homework + schedule planner for Cornell students, built with React, Redux, Firebase, and TypeScript. Designed and developed by the ', <a target="_blank" rel="noopener noreferrer" href="https://www.cornelldti.org/">Cornell Design &amp; Tech Initiative.</a>]}
+                desc={[
+                  'Samwise is a homework + schedule planner for Cornell students, built with React, Redux, Firebase, and TypeScript. Designed and developed by the ',
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.cornelldti.org/"
+                  >
+                    Cornell Design &amp; Tech Initiative.
+                  </a>,
+                ]}
                 linkText="Link To Website"
                 url="https://samwise.today/"
                 style={{ background: '#F44336' }}
@@ -33,7 +47,7 @@ export default (): ReactElement => (
                 image={Poker}
                 altText="Distributed Texas Hold 'Em Poker"
                 title="Distributed Texas Hold 'Em Poker"
-                desc="Dealing with the isolation of the pandemic in the spring of 2020, I made this multiplayer web game which implements a classic poker game to play with friends and family. Built with socket.io, Node.js (tested using Jest), and Express."
+                desc="Dealing with the isolation of the pandemic in the spring of 2020, I made this multiplayer web game which implements a classic poker game to play with friends and family. Built with socket.io, Node.js, and Express, as well as ample Jest unit testing."
                 linkText="Link To Game"
                 url="https://poker.peterwu.dev"
                 style={{ background: '#2693FF' }}
@@ -41,13 +55,30 @@ export default (): ReactElement => (
             </Grid>
             <Grid item xs>
               <Project
-                image={Overnightly}
-                altText="Overnightly"
-                title="Overnightly"
-                desc="Created as my capstone project for the Google STEP 2020 internship, Overnightly is a webapp built with Google App Engine (using Java) that makes finding a place to stay easy if you know where you want to go. I set up the CI pipeline for the project, enforcing unit tests covering over 95% of the backend code."
+                image={fitme}
+                altText="fitme"
+                title="fitme"
+                desc={[
+                  'fitme is a platform for fashion outfits, powered by AI. We built an HTTP API microservice using Flask, Docker, and ',
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/"
+                  >
+                    Facebook AI's Detectron2
+                  </a>,
+                  ' which is based on Mask R-CNN. We then connected this with a TypeScript React webapp with a responsive UI allowing users to upload and segment fit images. ',
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.youtube.com/watch?v=icFoew4bchg/"
+                  >
+                    Demo Video
+                  </a>,                
+                ]}
                 linkText="Link To GitHub Repo"
-                url="https://github.com/googleinterns/step27-2020"
-                style={{ background: '#388E3C' }}
+                url="https://github.com/blimeo/fitme"
+                style={{ background: '#AB47BC' }}
               />
             </Grid>
           </Grid>
@@ -55,7 +86,12 @@ export default (): ReactElement => (
       </Grid>
       <Grid container>
         <Grid item xs={12}>
-          <Grid className={styles.fullwidthGrid} container justify="center" spacing={8}>
+          <Grid
+            className={styles.fullwidthGrid}
+            container
+            justify="center"
+            spacing={8}
+          >
             <Grid item xs>
               <Project
                 image={ClassReveal}
@@ -81,13 +117,13 @@ export default (): ReactElement => (
             </Grid>
             <Grid item xs>
               <Project
-                image={WWPMT}
-                altText="WWPMT"
-                title="WWPMT (now WWPME)"
-                desc="The WW-P Mathematics Tournament website, powered by a HTML5 + CSS frontend and a Google App Engine Datastore backend, houses a scoring and problem submission database and advertises the annual competition, which draws in over 500 students per year."
-                linkText="Link To Website"
-                url="https://wwpme.org/"
-                style={{ background: '#AB47BC' }}
+                image={Overnightly}
+                altText="Overnightly"
+                title="Overnightly"
+                desc="Created as my capstone project for the Google STEP 2020 internship, Overnightly is a webapp built with Google App Engine (using Java) that makes finding a place to stay easy if you know where you want to go. I set up the CI pipeline for the project, enforcing unit tests covering over 95% of the backend code."
+                linkText="Link To GitHub Repo"
+                url="https://github.com/googleinterns/step27-2020"
+                style={{ background: '#388E3C' }}
               />
             </Grid>
           </Grid>
