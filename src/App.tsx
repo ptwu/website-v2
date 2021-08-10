@@ -17,7 +17,9 @@ export default (): ReactElement => (
     <CssBaseline />
     <AppBar className="navbar" position="fixed">
       <Toolbar>
-        <a href="https://peterwu.dev"><img src={Logo} width="64px" height="64px" alt="ptwu logo" /></a>
+        <a href="https://peterlwu.com">
+          <img src={Logo} width="64px" height="64px" alt="ptwu logo" />
+        </a>
       </Toolbar>
     </AppBar>
     <VideoContainer />
