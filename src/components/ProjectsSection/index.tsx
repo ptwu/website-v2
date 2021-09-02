@@ -97,7 +97,7 @@ export default (): ReactElement => (
                 image={ClassReveal}
                 altText="Class Reveal"
                 title="Class Reveal"
-                desc="Webapp crowdsourcing schedule and roster data for students across the school district, reaching over 2,500 students in
+                desc="Webapp crowdsourcing schedule and roster data for students across my high school district, reaching over 2,500 students in
                 in the summer of 2018. Built with Firebase + HTML5, CSS, and JS. The current site is no longer under my control, and may have changed since."
                 linkText="Link To Website"
                 url="https://classreveal.com/"
